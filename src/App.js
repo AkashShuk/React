@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaStar} from "react-icons/fa";
+import './App.css'
 
 const StarGenerate = (numOfstar) =>{
   const[selected,setSelected]=useState(0);
